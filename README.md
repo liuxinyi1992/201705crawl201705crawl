@@ -42,3 +42,13 @@ n latest
 ```
 apt-get install git
 ```
+## 安装mongodb
+```
+apt-get install mongodb
+```
+> mongdb 安装完成后会自动启动，不需要手工启动了
+
+
+
+
+
