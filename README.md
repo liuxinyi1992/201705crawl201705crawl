@@ -69,9 +69,27 @@ npm install
 ```
 export DEBUG=crawl:*
 ```
-启动项目
+启动项目用来向数据库填充数据
 ```
 node tasks/main.js
+```
+启动http服务器
+```
+node server.js
+```
+访问服务器
+```
+http://101.37.80.83:8080/
+```
+
+## 安装node进程管理器
+```
+npm install pm2 -g
+```
+
+## 安装 nginx
+```
+apt-get install nginx
 ```
 
 
