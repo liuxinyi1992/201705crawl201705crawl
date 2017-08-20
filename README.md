@@ -16,4 +16,29 @@ ssh root@101.37.80.83
 ```
 Welcome to Alibaba Cloud Elastic Compute Service !
 ```
+## 升级操作系统
+```
+apt-get update
+```
 
+## 安装npm
+npm是node包管理器
+```
+apt-get install npm
+```
+
+## 安装`n`
+n是一个node模块，可以用来安装node
+```
+npm install n -g
+```
+
+## 安装node
+```
+n latest
+```
+
+## 安装git
+```
+apt-get install git
+```
