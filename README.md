@@ -49,6 +49,27 @@ apt-get install mongodb
 > mongdb 安装完成后会自动启动，不需要手工启动了
 
 
+## 在服务器上把代码下载下来
+```
+git clone https://github.com/zhufengnodejs/201705crawl201705crawl.git
+```
 
+## 启动服务器
+进入项目所在的目录
+```
+cd 201705crawl201705crawl
+```
+下载依赖的模块
+```
+npm install
+```
+设置日志的环境变量
+```
+export DEBUG=crawl:*
+```
+启动项目
+```
+node tasks/main.js
+```
 
 
